@@ -1,13 +1,15 @@
 package ch.ricardo.screening.todolist.model;
 
-/**
- * Created by tmi on 19/04/18.
- */
+import io.swagger.annotations.ApiModelProperty;
+
 public class TodoItem {
 
     private static final Long DEFAULT_ID_VALUE = -1L;
 
+    @ApiModelProperty(notes = "Auto-generated identifier", required = false)
     private Long id = DEFAULT_ID_VALUE;
+
+    @ApiModelProperty(notes = "Content of the Todo item")
     private String content;
 
     public TodoItem() {}

@@ -9,10 +9,6 @@ import org.springframework.stereotype.Service;
 
 import ch.ricardo.screening.todolist.model.TodoItem;
 
-/**
- * Created by tmi on 19/04/18.
- */
-
 @Service("todolistService")
 public class TodoListServiceImpl implements TodoListService {
 

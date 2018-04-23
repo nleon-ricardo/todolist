@@ -5,9 +5,6 @@ import java.util.Optional;
 
 import ch.ricardo.screening.todolist.model.TodoItem;
 
-/**
- * Created by tmi on 19/04/18.
- */
 public interface TodoListService {
 
     List<TodoItem> retrieveAllItems();
