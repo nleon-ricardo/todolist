@@ -40,6 +40,8 @@ The API documentation is exposed through the Swagger UI (doc generation from cod
 http://localhost:<port1>/swagger-ui.html
 ```
 
+![Swagger UI Screenshot](images/Swagger.png)
+
 **On top of providing the API doc, the Swagger UI can also be used to** 
 * **build and send requests to the APP**
 * generate requests to be run in a CLI environment using the `curl` tool
